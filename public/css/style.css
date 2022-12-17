@@ -1,0 +1,144 @@
+@import url("https://fonts.googleapis.com/css2?family=Luckiest+Guy&display=swap");
+@font-face {
+    font-family: startupFont;
+    src: url(fontStart.otf);
+}
+
+body {
+    margin: 0px;
+    
+}
+
+#app {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border: solid 20px gray;
+}
+
+#container {
+    background-image: url("/assets/images/background/forest3.webp");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    width: 100vw;
+    background-color: rgb(255, 255, 255);
+}
+
+.home {
+
+    background-color: rgba(36, 141, 165, 0.735);
+    height: 600px;
+    width: 800px;
+    color: white;
+    font-family: startupFont;
+    /* background: linear-gradient(
+        180deg,
+        rgba(2, 0, 36, 1) 0%,
+        rgb(145, 0, 0) 0%,
+        rgba(0, 0, 0, 1) 100%
+    ); */
+    /* border: solid 20px gray; */
+}
+
+.home h1 {
+    font-size: 100px;
+    font-weight: 100;
+    margin: 0px;
+    text-align: center;
+
+}
+
+@keyframes textShadow {
+    0% {
+        text-shadow: 0 0 10px #000, 0 0 20px #000, 0 0 30px #000, 0 0 40px #000,
+            0 0 50px #000, 0 0 60px #000, 0 0 70px #000;
+    }
+    100% {
+        text-shadow: 0 0 10px #f00, 0 0 20px #f00, 0 0 30px #f00, 0 0 40px #f00,
+            0 0 50px #f00, 0 0 60px #f00, 0 0 70px #f00;
+    }
+}
+
+.center-text {
+    text-align: center;
+}
+
+.name-input {
+    margin: 10px;
+    width: 200px;
+    height: 30px;
+    font-size: 15px;
+    border-radius: 5px;
+    border: none;
+    padding: 5px;
+    box-sizing: border-box;
+}
+
+.text-input-center {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.start-button {
+    font-family: "Luckiest Guy";
+        padding: 1rem 1.25rem;
+        font-size: 1.5rem;
+        letter-spacing: 0.25rem;
+        box-shadow: 2px 2px 0px 1px #4a4c69;
+        text-transform: uppercase;
+        background-color: #007747;
+        border: none;
+        border-radius: 0.75rem;
+        color: #fff;
+    
+}
+
+/* button glow animation */
+.start-button:hover {
+    background-color: rgb(4, 205, 181);
+    
+}
+
+.button-center {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.table,
+th,
+td {
+    border: 0px;
+    text-align: center;
+}
+
+.table {
+    margin: 10px;
+    border: solid 4px;
+}
+
+.table-center {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.table th {
+    font-size: 25px;
+    font-weight: 100;
+    margin: 2px;
+    text-align: center;
+    background-color: rgb(12, 105, 151);
+    padding: 20px;
+}
