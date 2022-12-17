@@ -12,7 +12,7 @@ class Game {
         score = new Score();
         life = new Life(level.settings.maxLife, level.settings.initialLife);
     
-        // bgMusic.loop();
+        bgMusic.loop();
   
         hero = new Hero(heroMatrix, imgHero, 0, 120, heroSprite.halfW, heroSprite.halfH, heroSprite.w, heroSprite.h);
         const enemy = new Enemy(enemyMatrix, imgEnemy, width - enemySprite.halfW, 120, enemySprite.halfW, enemySprite.halfW, enemySprite.w, enemySprite.w);
