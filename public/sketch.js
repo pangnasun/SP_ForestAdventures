@@ -1,5 +1,6 @@
 function setup() {
     createCanvas(windowWidth, windowHeight);
+    bgMusic.loop();
     frameRate(GAME_FRAME_RATE);
     currentScene = 'startupScene';
     buttonManager = new ButtonManager('Start Game', width/2, height/1.5);
@@ -11,6 +12,8 @@ function setup() {
         gameScene: game,
         startupScene: startup
     };
+    // bgMusic.play();
+    
 }
 
 function keyPressed() {

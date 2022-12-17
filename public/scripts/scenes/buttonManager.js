@@ -14,7 +14,7 @@ class ButtonManager {
     }
 
     _switchScene() {
-        
+        bgMusic.loop();
         if(this.label=='Leaderboard'){
             console.log('hi');
             window.location.href = 'leaderBoard.html';
